@@ -100,7 +100,7 @@ angular.module('jinr').directive('drawingTools',function(TouchEventServise){
 
 });
 
-angular.module('jinr').directive('jinrParticle',function(TouchEventServise){
+angular.module('jinr').directive('jinrParticle',function(TouchEventServise, JINR_CONF){
 	return {
 		link : function( scope, element, attr ){
 
@@ -225,11 +225,10 @@ angular.module('jinr').directive('jinrParticle',function(TouchEventServise){
 			    		metal : true,
 			    		map: texture,
 
-			    		//lightMap : 
 			    	});
 
 			    	var lS = localStorage.getItem(item.id);
-			    	if (lS) sphereMaterial.color.setHex(0xffffff);
+			    	if (lS) sphereMaterial.color.setHex(JINR_CONF.BRIGHT_HEX);
 
 			    	sphereMaterial.needsUpdate = true;
 			    	sphereMaterial._needsUpdate = true;

@@ -21,7 +21,7 @@ angular.module('jinr').controller('jinrController', function($scope,$uibModal,$t
 			for (var i in items){
 				var data = localStorage.getItem(items[i].id);
 				if (data){
-					saveAsImage(data, 'GuestBook_sign_'+items[i].title_en+'.png');
+					saveAsImage(data, JINR_CONF.SAVE_IMG_PREFIX+items[i].title_en+'.png');
 				}
 			}
 		});
@@ -41,20 +41,16 @@ angular.module('jinr').controller('jinrController', function($scope,$uibModal,$t
 		      			 
 		      			 for (var i in $scope.spheres){
 		      			 	if ($scope.spheres[i].name==$scope.currentObject.id) 
-		      			 	{
-		      			 		$scope.spheres[i].material.color.setHex(0xffffff);
-		      			 	}
-		      			 }
+ 		      			 		$scope.spheres[i].material.color.setHex(JINR_CONF.BRIGHT_HEX);
+ 		      			 }
 		      			},
 		      			function(){
 		      				
 		      			 	$uibModalInstance.close();
 		      			 	for (var i in $scope.spheres)
 		      			 	if ($scope.spheres[i].name==$scope.currentObject.id) 
-		      			 	{
-		      			 		$scope.spheres[i].material.color.setHex(0x777777);
-		      			 	}
-
+ 		      			 		$scope.spheres[i].material.color.setHex(JINR_CONF.DARK_HEX);
+ 
 
 		      			 });
                 };
