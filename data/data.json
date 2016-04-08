@@ -1,0 +1,787 @@
+[
+
+   {
+      "id" : "pl",
+
+      "title": "Польша",
+
+      "title_en" : "Poland",
+
+      "position": [
+
+         -1.5,
+
+         5.5,
+
+         0
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         -70
+
+      ],
+
+      "texture": "images/textures/pl.png"
+
+   },
+    {
+      "id" : "bg",
+
+      "title": "Болгария",
+
+      "title_en" : "Bulgaria",
+
+      "position": [
+
+         1.5,
+
+         5.5,
+
+         0
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         60
+
+      ],
+
+      "texture": "images/textures/bg.png"
+
+   },
+
+
+
+   {
+      "id" : "ge",
+
+      "title": "Грузия",
+
+      "title_en" : "Georgia",
+
+      "position": [
+
+         -3.5,
+
+         3.5,
+
+         -2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         140,
+
+         20
+
+      ],
+
+      "texture": "images/textures/ge6.png"
+
+   },
+    {
+      "id" : "ru",
+
+      "title": "Российская Федерация",
+
+      "title_en" : "Russian Federation",
+
+      "position": [
+
+         0,
+
+         3.5,
+
+         -4
+
+      ],
+
+      "rotation": [
+
+         20,
+
+         0,
+
+         0
+
+      ],
+
+      "texture": "images/textures/ru.png"
+
+   },
+    {
+      "id" : "za",
+
+      "title": "ЮАР",
+
+      "title_en" : "Republic of South Africa",
+
+      "position": [
+
+         3.5,
+
+         3.5,
+
+         -2
+
+      ],
+
+      "rotation": [
+
+         -20,
+
+         50,
+
+         20
+
+      ],
+
+      "texture": "images/textures/za.png"
+
+   },
+
+
+    {
+      "id" : "hu",
+
+      "title": "Венгрия",
+      "title_en" : "Hungary",
+
+      "position": [
+
+         -3.5,
+
+         3.5,
+
+         2
+
+      ],
+
+      "rotation": [
+
+         -10,
+
+         0,
+
+         -20
+
+      ],
+
+      "texture": "images/textures/hu.png"
+
+   },
+    {
+      "id" : "cz",
+
+      "title": "Чехия",
+
+      "title_en" : "Czech Republic",
+
+      "position": [
+
+         0,
+
+         3.5,
+
+         4
+
+      ],
+
+      "rotation": [
+
+         -40,
+
+         -90,
+
+         0
+
+      ],
+
+      "texture": "images/textures/cz.png"
+
+   },{
+     "id" : "kz",
+
+      "title": "Казахстан",
+
+      "title_en" : "Kazakhstan",
+
+      "position": [
+
+         3.5,
+
+         3.5,
+
+         2
+
+      ],
+
+      "rotation": [
+
+         -20,
+
+         -40,
+
+         0
+
+      ],
+
+      "texture": "images/textures/kz.png"
+
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+     "id" : "it",
+
+      "title": "Италия",
+
+      "title_en" : "Italy",
+
+      "position": [
+
+         2,
+
+         0,
+
+         5
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         -70,
+
+         0
+
+      ],
+
+      "texture": "images/textures/it2.png"
+
+   },
+{
+     "id" : "am",
+
+      "title": "Армения",
+
+      "title_en" : "Armenia",
+
+      "position": [
+
+         5,
+
+         0,
+
+         2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         0
+
+      ],
+
+      "texture": "images/textures/am.png"
+
+   },
+   
+   {
+     "id" : "ua",
+
+      "title": "Украина",
+
+      "title_en" : "Ukraine",
+
+      "position": [
+
+         5,
+
+         0,
+
+         -2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         0
+
+      ],
+
+      "texture": "images/textures/ua.png"
+
+   },
+   {
+     "id" : "cu",
+
+      "title": "Куба",
+
+      "title_en" : "Cuba",
+
+      "position": [
+
+         2,
+
+         0,
+
+         -5
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         60,
+
+         0
+
+      ],
+
+      "texture": "images/textures/cu4.png"
+
+   },
+
+
+
+
+
+
+
+
+
+
+{
+     "id" : "de",
+
+      "title": "Германия",
+
+      "title_en" : "Germany",
+
+      "position": [
+
+         -2,
+
+         0,
+
+         5
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         0
+
+      ],
+
+      "texture": "images/textures/de.png"
+
+   },
+   {
+     "id" : "uz",
+
+      "title": "Узбекистан",
+
+      "title_en" : "Uzbekistan",
+
+      "position": [
+
+         -5,
+
+         0,
+
+         2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         -135,
+
+         0
+
+      ],
+
+      "texture": "images/textures/uz2.png"
+
+   },
+   
+   {
+     "id" : "vm",
+
+      "title": "Вьетнам",
+
+      "title_en" : "Vietnam",
+
+      "position": [
+
+         -5,
+
+         0,
+
+         -2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         150,
+
+         0
+
+      ],
+
+      "texture": "images/textures/vm2.png"
+
+   },
+   {
+     "id" : "sk",
+
+      "title": "Словакия",
+
+      "title_en" : "Slovakia",
+
+      "position": [
+
+         -2,
+
+         0,
+
+         -5
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         100,
+
+         0
+
+      ],
+
+      "texture": "images/textures/sk.png"
+
+   },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+      "id" : "mn",
+
+      "title": "Монголия",
+
+      "title_en" : "Mongolia",
+
+      "position": [
+
+         -3.5,
+
+         -3,
+
+         -2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         170,
+
+         -20
+
+      ],
+
+      "texture": "images/textures/mn.png"
+
+   },
+    {
+      "id" : "ro",
+
+      "title": "Румыния",
+
+      "title_en" : "Romania",
+
+      "position": [
+
+         0,
+
+         -3.5,
+
+         -3.5
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         90,
+
+         -20
+
+      ],
+
+      "texture": "images/textures/ro.png"
+
+   },
+    {
+      "id" : "kr",
+
+      "title": "КНДР",
+
+      "title_en" : "North Korea",
+
+      "position": [
+
+         3.5,
+
+         -3.5,
+
+         -2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         -20
+
+      ],
+
+      "texture": "images/textures/kr.png"
+
+   },
+
+
+    {
+      "id" : "az",
+
+      "title": "Азербайджан",
+
+      "title_en" : "Azerbaijan",
+
+      "position": [
+
+         -3.5,
+
+         -3.5,
+
+         2
+
+      ],
+
+      "rotation": [
+
+         20,
+
+         170,
+
+         -20
+
+      ],
+
+      "texture": "images/textures/az.png"
+
+   },
+    {
+      "id" : "eg",
+
+      "title": "Египет",
+
+      "title_en" : "Egypt",
+
+      "position": [
+
+         0,
+
+         -3.5,
+
+         4
+
+      ],
+
+      "rotation": [
+
+         30,
+
+         -90,
+
+         0
+
+      ],
+
+      "texture": "images/textures/eg.png"
+
+   },{
+     "id" : "by",
+
+      "title": "Белоруссия",
+
+      "title_en" : " Belarus",
+
+
+      "position": [
+
+         3.5,
+
+         -3.5,
+
+         2
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         60,
+
+         0
+
+      ],
+
+      "texture": "images/textures/by.png"
+
+   },
+
+
+
+
+
+
+
+
+
+
+   {
+      "id" : "md",
+
+      "title": "Молдавия",
+
+      "title_en" : "Moldova",
+
+      "position": [
+
+         -1.5,
+
+         -5.5,
+
+         0
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         180,
+
+         -45
+
+      ],
+
+      "texture": "images/textures/md.png"
+
+   },
+    {
+      "id" : "rs",
+
+      "title": "Сербия",
+
+      "title_en" : "Serbia",
+
+      "position": [
+
+         1.5,
+
+         -5.5,
+
+         0
+
+      ],
+
+      "rotation": [
+
+         0,
+
+         0,
+
+         -80
+
+      ],
+
+      "texture": "images/textures/rs.png"
+
+   }
+
+
+
+
+    ]
+

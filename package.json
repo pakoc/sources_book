@@ -1,0 +1,50 @@
+{
+    "main": "index.html",
+    "webkit": {
+        "page_cache": false,
+        "plugin": false,
+        "java": false
+    },
+    "name": "jinr_sources_book",
+    "single_instance": true,
+    "nodejs": true,
+    "webexe_settings": {
+        "windows-x64": true,
+        "nw_version": "0.13.2",
+        "download_dir": "C:\\Users\\\u043f\u0430\u0432\u0435\u043b\\AppData\\Local\\Web2Executable\\Web2Executable\\files\\compressors",
+        "windows-x32": false,
+        "force_download": false,
+        "mac-x32": false,
+        "sdk_build": false,
+        "linux-x64": false,
+        "uncompressed_folder": false,
+        "custom_script": "",
+        "linux-x32": false,
+        "nw_compression_level": 0,
+        "mac-x64": false,
+        "export_dir": "D:\\Web2Exe\\jinr_sources_book_v2"
+    },
+    "additional_trust_anchors": [
+        ""
+    ],
+    "window": {
+        "position": "center",
+        "toolbar": false,
+        "frame": true,
+        "kiosk_emulation": true,
+        "kiosk": true,
+        "as_desktop": true,
+        "show": true,
+        "fullscreen": true,
+        "width": 640,
+        "transparent": false,
+        "visible": true,
+        "title": "Guest Book",
+        "height": 480,
+        "resizable": true,
+        "always_on_top": false,
+        "show_in_taskbar": true
+    },
+    "version": "0.2.0",
+    "app_name": "jinr_sources_book"
+}

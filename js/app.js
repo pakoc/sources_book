@@ -1,0 +1,1 @@
+angular.module('jinr',['ngAnimate', 'ui.bootstrap']);
