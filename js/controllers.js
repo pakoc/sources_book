@@ -1,9 +1,13 @@
-angular.module('jinr').controller('jinrController', function($scope,$uibModal,$timeout,$http){
+angular.module('jinr').controller('jinrController', function($scope,$uibModal,$timeout,$http, JINR_CONF){
 	
 	$scope.currentObject;
 	$scope.mode = 'normal';
 	$scope.sphereControlEnabled = true;
 	$scope.spheres;
+
+	$scope.getData = function(){
+		return $http.get(JINR_CONF.DATA_PATH);
+	};
 
 	$scope.chooseCurrentObject = function(obj){
 		$scope.currentObject = obj;
@@ -13,7 +17,7 @@ angular.module('jinr').controller('jinrController', function($scope,$uibModal,$t
 
 	$scope.saveAllImages = function(){
 
-		$http.get('data/data.json').success(function(items){
+		$scope.getData().success(function(items){
 			for (var i in items){
 				var data = localStorage.getItem(items[i].id);
 				if (data){
@@ -22,6 +26,7 @@ angular.module('jinr').controller('jinrController', function($scope,$uibModal,$t
 			}
 		});
 	};
+
 	function openDrawModal() {
 	   $scope.sphereControlEnabled = false;
 	   $scope.mode = 'dialog';
